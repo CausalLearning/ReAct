@@ -20,12 +20,9 @@ cd React/model
 python setup.py build_ext --inplace
 ```
 
----
 ## Data preparing 
-We used the TSN feature [(Google Drive Link)](https://drive.google.com/drive/folders/1-19PgCRTTNfy2RWGErvUUlT0_3J-qEb8) provied by G-TAD for our model. The annotation files are also provied. Please put all the **files** in the ```datasets/thumos14/``` fold (or you can put them in any place and modify the data path in the config file in ```React/configs/thumos_tsn_feature.py```)
+We used the TSN feature [(Google Drive Link)](https://drive.google.com/drive/folders/1-19PgCRTTNfy2RWGErvUUlT0_3J-qEb8) provied by G-TAD for our model. Please put all the **files** in the ```datasets/thumos14/``` fold (or you can put them in any place and modify the data path in the config file in ```React/configs/thumos_tsn_feature.py```)
 
-
----
 ## Training
 
 Our model can be trained with
@@ -35,8 +32,6 @@ python tools/train.py React/configs/thumos_tsn_feature.py --validate
 ```
 
 We recommend to set the `--validate` flag to monitor the training process.
-
----
 
 ## Test
 If you want to test the pretrained model, please use the following code.
