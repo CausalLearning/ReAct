@@ -32,7 +32,7 @@ python tools/train.py React/configs/thumos_tsn_feature.py --validate
 ```
 
 We recommend to set the `--validate` flag to monitor the training process.
-
+ 
 ## Test
 If you want to test the pretrained model, please use the following code.
 ```shell
