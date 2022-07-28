@@ -41,7 +41,7 @@ If you want to test the pretrained model, please use the following code.
 python tools/test.py React/configs/thumos_tsn_feature.py PATH_TO_MODEL_PARAMETER_FILE
 ```
 
-We provide the pretrained weights for React ([THUMOS14](https://drive.google.com/file/d/1pcfJ6G5SC_zNeWG11cxtXAhj2rJVrz8q/view?usp=sharing)) . Our code supports test with a batch of videos for efficient. If you want to change the batch size, you change the number of ```workers_per_gpu``` in ```thumos_tsn_feature.py```. 
+We provide the pretrained weights for React ([THUMOS14](https://drive.google.com/file/d/1pcfJ6G5SC_zNeWG11cxtXAhj2rJVrz8q/view?usp=sharing)) . Our code supports test with a batch of videos for efficient. If you want to change the batch size, you can change the number of ```workers_per_gpu``` in ```thumos_tsn_feature.py```. 
 
 Then, you can run the test by 
 ```shell
