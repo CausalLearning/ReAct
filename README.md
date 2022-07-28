@@ -1,7 +1,7 @@
 # ReAct: Temporal Action Detection with Relational Queries
 
 ---
-This repo holds the code for React, which is accept to ECCV2022. If you have any question, welcome to contact Dingfeng Shi at "shidingfeng at buaa . edu. cn".
+This repo holds the code for React, which is accept to ECCV2022. If you have any question, welcome to contact at "shidingfeng at buaa . edu. cn".
 
 
 ## Installation
