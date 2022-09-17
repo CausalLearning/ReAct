@@ -5,14 +5,21 @@ This repo holds the code for React, which is accept to ECCV2022. If you have any
 
 
 ## Installation
-First install the MMCV. See [here](https://github.com/open-mmlab/mmcv) for more details.
+We build our code based on the MMaction2 project (1.3.10 version). See [here](https://github.com/open-mmlab/mmaction2) for more details if you are interested.
+MMCV is needed before install MMaction2, which can be install with:
 ```shell
-pip install mmcv-full=={mmcv_version} -f https://download.openmmlab.com/mmcv/dist/{cu_version}/{torch_version}/index.html
-```
+pip install mmcv-full-f https://download.openmmlab.com/mmcv/dist/{cu_version}/{torch_version}/index.html
+# For example, to install the latest mmcv-full with CUDA 11.1 and PyTorch 1.9.0, use the following command:
+pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu111/torch1.9.0/index.html
 
-We build our code based on the MMaction2 project (1.3.10 version). See [here](https://github.com/open-mmlab/mmaction2) for more details if you are interested. Our code can be built by 
+```
+For other CUDA or pytorch version, please refer [here](https://github.com/open-mmlab/mmcv) to get a matched link. 
+
+
+Then, our code can be built by 
 ```shell
-cd mmaction2
+git clone https://github.com/sssste/React.git
+cd React
 pip3 install -e .
 ```
 
