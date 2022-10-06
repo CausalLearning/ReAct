@@ -61,4 +61,14 @@ The results (mAP at tIoUs, %) should be
 |--------|------|-----|-----|-----|-----|-----|
 | React  | 70.8 |65.9|57.8|47.2|34.2|55.2
 
+## Citation
+If you feel this work useful, please cite our paper! Thank you!
+```
+@inproceedings{shi2022react,
+  title={ReAct: Temporal Action Detection with Relational Queries},
+  author={Dingfeng Shi, Yujie Zhong, Qiong Cao, Jing Zhang, Lin Ma, Jia Li and Dacheng Tao},
+  booktitle={European Conference on Computer Vision},
+  year={2022}
+}
+```
 
