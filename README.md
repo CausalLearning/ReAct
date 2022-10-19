@@ -65,10 +65,10 @@ The results (mAP at tIoUs, %) should be
 If you feel this work useful, please cite our paper! Thank you!
 ```
 @inproceedings{shi2022react,
-  title={ReAct: Temporal Action Detection with Relational Queries},
-  author={Dingfeng Shi, Yujie Zhong, Qiong Cao, Jing Zhang, Lin Ma, Jia Li and Dacheng Tao},
-  booktitle={European Conference on Computer Vision},
-  year={2022}
+title = {ReAct: Temporal Action Detection with Relational Queries},
+author = {Shi, Dingfeng and Zhong, Yujie and Cao, Qiong and Zhang, Jing and Ma, Lin and Li, Jia and Tao, Dacheng},
+year={2022},
+booktitle = {European conference on computer vision}
 }
 ```
 
